@@ -36,9 +36,9 @@ tinder.name ="prnay"
 tinder.id = 32
 tinder.email = "pranay@gmail.com"
 
-console.log(Object.keys(tinder));
-console.log(Object.values(tinder));
-console.log(Object.entries(tinder));
+// console.log(Object.keys(tinder));
+// console.log(Object.values(tinder));
+// console.log(Object.entries(tinder));
 
 // used to chec does the property exits in it or not 
 console.log(tinder.hasOwnProperty("id"));
@@ -52,27 +52,27 @@ const user =[
         age :"21"
 
     },
-    {
-        id:"438mr",
-        name:"manja",
-        age :"25"
+    // {
+    //     id:"438mr",
+    //     name:"manja",
+    //     age :"25"
 
-    },
-    {
-        id:"106jfh",
-        name:"manu",
-        age :"32"
+    // },
+    // {
+    //     id:"106jfh",
+    //     name:"manu",
+    //     age :"32"
 
-    }
+    // }
 ]
-
-
-
-
-
-
-
-
+//  deconstructor 
+const course = {
+    coursename:"learn",
+    courseprize:299,
+    coursetime:"2pm"
+}
+const {coursename: namea} = course
+console.log(namea);
 
 
 
