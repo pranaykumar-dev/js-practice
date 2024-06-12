@@ -25,6 +25,15 @@ const username = ()=> {
 }
 username(); //semicolon is importent to end and run other codes
 // IIFE
-(  (name) => {
+(  (name) => { //unnamed IIFE 
     console.log(`hello ${name}`);
-} )('pk')
+} )('pk');
+
+
+(function chai(){ //named IIFE
+    console.log(`hello world`);
+    
+
+
+})()
+ 
